@@ -1,6 +1,6 @@
 ---
-title: Photos - Anthony Fu
-description: Photos by Anthony Fu
+title: Photos - Oscar Hickman
+description: Photos by Oscar Hickman
 display: ''
 ---
 

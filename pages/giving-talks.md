@@ -1,11 +1,11 @@
 ---
-title: Giving Talks - Anthony Fu
+title: Giving Talks - Oscar Hickman
 display: ''
 ---
 
 # Giving Talks
 
-Hey! My name is [Anthony Fu](/). I am a fanatical open sourceror living in Tokyo. I am focusing on many areas in frontend like Vite, Vue, Nuxt, DX, CSS, etc.
+Hey! My name is [Oscar Hickman](/). I am a cosmology researcher at Durham University.
 
 [Talks I have given](/talks).
 
