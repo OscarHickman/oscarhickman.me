@@ -37,34 +37,6 @@ declare module 'vue-router/auto-routes' {
       { 404: ParamValue<false> },
       | never
     >,
-    '/bar': RouteRecordInfo<
-      '/bar',
-      '/bar',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/bookmarks': RouteRecordInfo<
-      '/bookmarks',
-      '/bookmarks',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/chat': RouteRecordInfo<
-      '/chat',
-      '/chat',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/collective-sponsor-onetime': RouteRecordInfo<
-      '/collective-sponsor-onetime',
-      '/collective-sponsor-onetime',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/demos': RouteRecordInfo<
       '/demos',
       '/demos',
@@ -75,13 +47,6 @@ declare module 'vue-router/auto-routes' {
     '/giving-talks': RouteRecordInfo<
       '/giving-talks',
       '/giving-talks',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/media': RouteRecordInfo<
-      '/media',
-      '/media',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -107,13 +72,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/podcasts': RouteRecordInfo<
-      '/podcasts',
-      '/podcasts',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/projects': RouteRecordInfo<
       '/projects',
       '/projects',
@@ -128,30 +86,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/sponsors-list': RouteRecordInfo<
-      '/sponsors-list',
-      '/sponsors-list',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/streams': RouteRecordInfo<
-      '/streams',
-      '/streams',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/talks': RouteRecordInfo<
       '/talks',
       '/talks',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/use': RouteRecordInfo<
-      '/use',
-      '/use',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -181,30 +118,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/bar.md': {
-      routes:
-        | '/bar'
-      views:
-        | never
-    }
-    'pages/bookmarks.md': {
-      routes:
-        | '/bookmarks'
-      views:
-        | never
-    }
-    'pages/chat.md': {
-      routes:
-        | '/chat'
-      views:
-        | never
-    }
-    'pages/collective-sponsor-onetime.md': {
-      routes:
-        | '/collective-sponsor-onetime'
-      views:
-        | never
-    }
     'pages/demos.md': {
       routes:
         | '/demos'
@@ -214,12 +127,6 @@ declare module 'vue-router/auto-routes' {
     'pages/giving-talks.md': {
       routes:
         | '/giving-talks'
-      views:
-        | never
-    }
-    'pages/media.md': {
-      routes:
-        | '/media'
       views:
         | never
     }
@@ -241,12 +148,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/podcasts.md': {
-      routes:
-        | '/podcasts'
-      views:
-        | never
-    }
     'pages/projects.md': {
       routes:
         | '/projects'
@@ -259,27 +160,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/sponsors-list.md': {
-      routes:
-        | '/sponsors-list'
-      views:
-        | never
-    }
-    'pages/streams.md': {
-      routes:
-        | '/streams'
-      views:
-        | never
-    }
     'pages/talks.md': {
       routes:
         | '/talks'
-      views:
-        | never
-    }
-    'pages/use.md': {
-      routes:
-        | '/use'
       views:
         | never
     }
