@@ -30,11 +30,8 @@ import { slugify } from './scripts/slugify'
 const promises: Promise<any>[] = []
 
 export default defineConfig({
-  // For GitHub Pages project deployment: use repository path when running in CI unless custom domain provided.
-  // If you add a CNAME (custom domain), set USE_CUSTOM_DOMAIN=1 in the workflow env to switch base to '/'.
-  base: process.env.USE_CUSTOM_DOMAIN === '1'
-    ? '/'
-    : (process.env.GITHUB_REPOSITORY?.endsWith('/OscarHickman.io') ? '/OscarHickman.io/' : '/'),
+  // For GitHub Pages: user/org sites (username.github.io) are served at root; no base path needed.
+  base: '/',
   resolve: {
     alias: [
       { find: '~/', replacement: `${resolve(__dirname, 'src')}/` },
