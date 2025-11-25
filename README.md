@@ -1,4 +1,4 @@
-**[oscarhickman.github.io](https://oscarhickman.github.io)**
+**[oscarhickman.me](https://oscarhickman.me)**
 
 my personal website
 
