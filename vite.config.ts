@@ -156,7 +156,7 @@ export default defineConfig({
           )
           // Use custom domain if set, else GitHub Pages project path fallback
           const hostBase = process.env.USE_CUSTOM_DOMAIN === '1'
-            ? 'https://oscarhickman.me'
+            ? 'https://oscarhickman.io'
             : 'https://oscarhickman.github.io/OscarHickman.io'
           frontmatter.image = `${hostBase}/${path}`
         })()
